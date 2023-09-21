@@ -1,5 +1,7 @@
 # Media Queries Ass-9 CSS
 
+## Hosted Link
+You can view the project live at [View Live Project](https://saifulislam05.github.io/media-quries-ass-9-css/)
 ## Project Description
 The "Media Queries Project" is a responsive web page that showcases the use of media queries to adapt the layout and design for different screen sizes. It features a coffee-related content section with an image and text, along with a "Learn More" button.
 
