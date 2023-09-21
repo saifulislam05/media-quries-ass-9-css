@@ -88,4 +88,41 @@ The "Media Queries Project" is a responsive web page that showcases the use of m
 - `text-decoration: none;`: Removes underlines from links.
 - `padding: 10px 57px;`: Sets padding for the button.
 
+## Responsive Breakpoints Explanation
+### Small Devices (Phones, 768px and Down)
 
+- `@media only screen and (max-width: 768px)`: This media query targets screens with a maximum width of 768 pixels, typically including small devices like phones.
+
+#### `main` (Main Section)
+- `height: fit-content;`: Adjusts the height of the main section to fit its content.
+- `padding-bottom: 20%;`: Adds padding to the bottom of the main section.
+
+#### `.image-box` (Image Box)
+- `width: 70%;`: Sets the width of the image box to 70% of its parent.
+- `height: 60vh;`: Sets the height of the image box to 60% of the viewport height.
+- `background-size: cover;`: Makes the background image cover the entire box.
+
+#### `.content-box` (Content Box)
+- `width: 100%;`: Sets the width of the content box to 100% of its parent.
+
+### Large Devices (Laptops/Desktops, 992px and Down)
+
+- `@media only screen and (min-width: 768px) and (max-width: 992px)`: This media query targets screens with widths between 768px and 992px, typically including larger phones, tablets, and small laptops.
+
+#### `.image-box` (Image Box)
+- `width: 50%;`: Sets the width of the image box to 50% of its parent.
+- `height: 450px;`: Sets the height of the image box to 450 pixels.
+- `background-size: cover;`: Makes the background image cover the entire box.
+
+#### `.content-box` (Content Box)
+- `width: 50%;`: Sets the width of the content box to 50% of its parent.
+
+#### `h1` (Heading)
+- `font-size: 2.75rem;`: Adjusts the font size of the heading for responsive design.
+
+#### `p` (Paragraph)
+- `font-size: 1rem;`: Adjusts the font size of paragraphs for responsive design.
+
+#### `.btn` (Button)
+- `padding: 8px 45px;`: Sets padding for the button.
+- `font-size: 1rem;`: Adjusts the font size of the button text for responsive design.
