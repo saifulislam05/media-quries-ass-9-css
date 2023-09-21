@@ -3,6 +3,9 @@
 ## Project Description
 The "Media Queries Project" is a responsive web page that showcases the use of media queries to adapt the layout and design for different screen sizes. It features a coffee-related content section with an image and text, along with a "Learn More" button.
 
+## UI(for larger devices)
+![image](https://github.com/saifulislam05/media-quries-ass-9-css/assets/73392705/5659bd49-5db7-4a8f-b5df-9cc45b616180)
+
 ## HTML Structure
 
 ### Container and Content Sections:
@@ -90,6 +93,7 @@ The "Media Queries Project" is a responsive web page that showcases the use of m
 
 ## Responsive Breakpoints Explanation
 ### Small Devices (Phones, 768px and Down)
+![small-devices-design](https://github.com/saifulislam05/media-quries-ass-9-css/assets/73392705/e41d2193-e681-4d33-b83b-2ca968b3eb44)
 
 - `@media only screen and (max-width: 768px)`: This media query targets screens with a maximum width of 768 pixels, typically including small devices like phones.
 
@@ -106,6 +110,7 @@ The "Media Queries Project" is a responsive web page that showcases the use of m
 - `width: 100%;`: Sets the width of the content box to 100% of its parent.
 
 ### Large Devices (Laptops/Desktops, 992px and Down)
+![image](https://github.com/saifulislam05/media-quries-ass-9-css/assets/73392705/67ee836e-bf2e-4b94-8406-2f98afb08ef9)
 
 - `@media only screen and (min-width: 768px) and (max-width: 992px)`: This media query targets screens with widths between 768px and 992px, typically including larger phones, tablets, and small laptops.
 
